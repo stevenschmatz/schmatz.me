@@ -1,0 +1,65 @@
+html, body {
+  margin: 0;
+  padding: 0; }
+
+body {
+  border-top: 5px solid cornflowerblue;
+  background-color: whitesmoke; }
+  body #container {
+    max-width: 800px;
+    margin: 100px auto;
+    border: 0px solid blue; }
+    body #container #title, body #container #description, body #container #contact, body #container #icons {
+      width: 350px;
+      height: 200px;
+      float: left;
+      padding-top: 0;
+      margin-top: 0; }
+    body #container #title {
+      position: relative;
+      left: -100px;
+      font-style: italic;
+      font-size: 4.5em;
+      font-family: "Open Sans";
+      text-align: left;
+      width: 100%;
+      margin-bottom: 0;
+      border: 0px solid red; }
+    body #container #description, body #container #contact {
+      position: relative;
+      left: 100px;
+      float: right;
+      font-family: "Open Sans";
+      font-size: 1.5em;
+      height: 100%;
+      width: 45%;
+      border-left: 1px solid gray;
+      padding-left: 5%; }
+    body #container #inline-link {
+      color: black;
+      opacity: 1; }
+    body #container #icons {
+      float: right;
+      text-align: right;
+      position: relative;
+      top: 50px;
+      border: 0px solid black;
+      padding-right: 6%;
+      padding-top: 2%; }
+      body #container #icons img {
+        margin: 10px; }
+    body #container p#hover-icon-description {
+      opacity: 0;
+      padding-top: 10%;
+      text-align: center;
+      font-family: "Open Sans";
+      font-size: 1.5em; }
+
+.fade_right, .fade_up, .fade_right {
+  opacity: 0;
+  display: hidden; }
+
+#poem {
+  font-family: "Open Sans";
+  font-size: 1.5em;
+  float: right; }
